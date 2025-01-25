@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1da2d4402aae7c14aa23c2611cd77351
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275949
+  packageName: Scriptable Object Maker
+  packageVersion: 1.0.0
+  assetPath: Assets/Plugins/NorthWindStudios/ScriptableObjectMaker/AdvancedScriptableObjectMakerDropdown.cs
+  uploadId: 654369

@@ -1,0 +1,8 @@
+// ------------------------------------------------------------------
+// * 第三方引用 - Unity Assets Store 免费资源
+// * 原作者: "North Wind Studios"
+// * https://assetstore.unity.com/packages/tools/utilities/scriptable-object-maker-275949
+// ------------------------------------------------------------------
+// * 整理收录: Yuumi Zeus
+// * https://github.com/Yuumi-Zeus
+// ------------------------------------------------------------------

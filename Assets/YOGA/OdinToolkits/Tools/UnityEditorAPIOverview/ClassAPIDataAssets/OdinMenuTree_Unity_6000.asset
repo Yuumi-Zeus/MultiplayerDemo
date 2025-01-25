@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: OdinMenuTree_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Sirenix
+  assemblyQualifiedName: Sirenix.OdinInspector.Editor.OdinMenuTree, Sirenix.OdinInspector.Editor,
+    Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  className: OdinMenuTree
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 0
+    memberName: Add(string path, Object instance)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: Add(string path, Object instance, Texture icon)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: Add(string path, Object instance, SdfIconType icon)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: Add(string path, Object instance, Sprite sprite)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: Add(string path, Object instance, EditorIcon icon)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: AddRange<T>(IEnumerable<T> collection, Func<T, string> getPath)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: AddRange<T>(IEnumerable<T> collection, Func<T, string> getPath, Func<T,
+      Texture> getIcon)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: setDefaultMenuStyle(OdinMenuStyle value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setConfig(OdinMenuTreeDrawingConfig value)
+    returnType: Void
+  - isStatic: 0
+    memberName: FocusSearchField()
+    returnType: Void
+  - isStatic: 0
+    memberName: ScrollToMenuItem(OdinMenuItem menuItem, bool centerMenuItem)
+    returnType: Void
+  - isStatic: 0
+    memberName: EnumerateTree(bool includeRootNode)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: EnumerateTree(Func<OdinMenuItem, bool> predicate, bool includeRootNode)
+    returnType: IEnumerable<OdinMenuItem>
+  - isStatic: 0
+    memberName: EnumerateTree(Action<OdinMenuItem> action)
+    returnType: Void
+  - isStatic: 0
+    memberName: DrawMenuTree()
+    returnType: Void
+  - isStatic: 0
+    memberName: MarkDirty()
+    returnType: Void
+  - isStatic: 0
+    memberName: MarkLayoutChanged()
+    returnType: Void
+  - isStatic: 0
+    memberName: DrawSearchToolbar(GUIStyle toolbarStyle)
+    returnType: Void
+  - isStatic: 0
+    memberName: UpdateMenuTree()
+    returnType: Void
+  - isStatic: 0
+    memberName: HandleKeybaordMenuNavigation()
+    returnType: bool
+  - isStatic: 0
+    memberName: HandleKeyboardMenuNavigation()
+    returnType: bool
+  - isStatic: 0
+    memberName: Equals(Object obj)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  backendPropertyDataList:
+  - isStatic: 0
+    memberName: Selection
+  - isStatic: 0
+    memberName: MenuItems
+  - isStatic: 0
+    memberName: RootMenuItem
+  - isStatic: 0
+    memberName: DrawInSearchMode
+  - isStatic: 0
+    memberName: DefaultMenuStyle
+  - isStatic: 0
+    memberName: Config
+  backendFieldDataList:
+  - isStatic: 1
+    memberName: ActiveMenuTree
+  - isStatic: 0
+    memberName: FlatMenuTree
+  backendEventDataList: []

@@ -1,0 +1,283 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d34313026d04f9996f1c169b349dfc2, type: 3}
+  m_Name: OdinEditorWindow_Unity_6000
+  m_EditorClassIdentifier: 
+  belongToCollection: Sirenix
+  assemblyQualifiedName: Sirenix.OdinInspector.Editor.OdinEditorWindow, Sirenix.OdinInspector.Editor,
+    Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  className: OdinEditorWindow
+  unityClassAPIVersion: Unity_6000
+  backendMethodMemberDataList:
+  - isStatic: 0
+    memberName: addOnClose(Action value)
+    returnType: Void
+  - isStatic: 0
+    memberName: removeOnClose(Action value)
+    returnType: Void
+  - isStatic: 0
+    memberName: addOnBeginGUI(Action value)
+    returnType: Void
+  - isStatic: 0
+    memberName: removeOnBeginGUI(Action value)
+    returnType: Void
+  - isStatic: 0
+    memberName: addOnEndGUI(Action value)
+    returnType: Void
+  - isStatic: 0
+    memberName: removeOnEndGUI(Action value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setDefaultLabelWidth(float value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setWindowPadding(Vector4 value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setUseScrollView(bool value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setDrawUnityEditorPreview(bool value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setDefaultEditorPreviewHeight(float value)
+    returnType: Void
+  - isStatic: 1
+    memberName: InspectObjectInDropDown(Object obj, Rect btnRect, float windowWidth)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: InspectObjectInDropDown(Object obj, Rect btnRect, Vector2 windowSize)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: InspectObjectInDropDown(Object obj, Vector2 position)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: InspectObjectInDropDown(Object obj, float windowWidth)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: InspectObjectInDropDown(Object obj, Vector2 position, float windowWidth)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: InspectObjectInDropDown(Object obj, float width, float height)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: InspectObjectInDropDown(Object obj)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: InspectObject(Object obj)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: InspectObject(OdinEditorWindow window, Object obj)
+    returnType: OdinEditorWindow
+  - isStatic: 1
+    memberName: CreateOdinEditorWindowInstanceForObject(Object obj)
+    returnType: OdinEditorWindow
+  - isStatic: 0
+    memberName: ShowToast(ToastPosition toastPosition, SdfIconType icon, string text,
+      Color color, float duration)
+    returnType: Void
+  - isStatic: 0
+    memberName: BeginWindows()
+    returnType: Void
+  - isStatic: 0
+    memberName: EndWindows()
+    returnType: Void
+  - isStatic: 0
+    memberName: setWantsMouseMove(bool value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setWantsMouseEnterLeaveWindow(bool value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setWantsLessLayoutEvents(bool value)
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowNotification(GUIContent notification)
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowNotification(GUIContent notification, double fadeoutWait)
+    returnType: Void
+  - isStatic: 0
+    memberName: RemoveNotification()
+    returnType: Void
+  - isStatic: 0
+    memberName: setAutoRepaintOnSceneChange(bool value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setMaximized(bool value)
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowTab()
+    returnType: Void
+  - isStatic: 0
+    memberName: Focus()
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowUtility()
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowPopup()
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowModalUtility()
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowAsDropDown(Rect buttonRect, Vector2 windowSize)
+    returnType: Void
+  - isStatic: 0
+    memberName: Show()
+    returnType: Void
+  - isStatic: 0
+    memberName: Show(bool immediateDisplay)
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowAuxWindow()
+    returnType: Void
+  - isStatic: 0
+    memberName: ShowModal()
+    returnType: Void
+  - isStatic: 0
+    memberName: SaveChanges()
+    returnType: Void
+  - isStatic: 0
+    memberName: DiscardChanges()
+    returnType: Void
+  - isStatic: 0
+    memberName: Close()
+    returnType: Void
+  - isStatic: 0
+    memberName: Repaint()
+    returnType: Void
+  - isStatic: 0
+    memberName: setMinSize(Vector2 value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setMaxSize(Vector2 value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setTitle(string value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setTitleContent(GUIContent value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setDepthBufferBits(int value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setAntiAlias(int value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setPosition(Rect value)
+    returnType: Void
+  - isStatic: 0
+    memberName: SendEvent(Event e)
+    returnType: bool
+  - isStatic: 0
+    memberName: GetExtraPaneTypes()
+    returnType: IEnumerable<Type>
+  - isStatic: 0
+    memberName: TryGetOverlay(string id, ref Overlay match)
+    returnType: bool
+  - isStatic: 0
+    memberName: SetDirty()
+    returnType: Void
+  - isStatic: 0
+    memberName: GetInstanceID()
+    returnType: int
+  - isStatic: 0
+    memberName: GetHashCode()
+    returnType: int
+  - isStatic: 0
+    memberName: Equals(Object other)
+    returnType: bool
+  - isStatic: 0
+    memberName: setName(string value)
+    returnType: Void
+  - isStatic: 0
+    memberName: setHideFlags(HideFlags value)
+    returnType: Void
+  - isStatic: 0
+    memberName: ToString()
+    returnType: string
+  - isStatic: 0
+    memberName: GetType()
+    returnType: Type
+  backendPropertyDataList:
+  - isStatic: 0
+    memberName: DefaultLabelWidth
+  - isStatic: 0
+    memberName: WindowPadding
+  - isStatic: 0
+    memberName: UseScrollView
+  - isStatic: 0
+    memberName: DrawUnityEditorPreview
+  - isStatic: 0
+    memberName: DefaultEditorPreviewHeight
+  - isStatic: 0
+    memberName: PropertyTree
+  - isStatic: 0
+    memberName: dataModeController
+  - isStatic: 0
+    memberName: rootVisualElement
+  - isStatic: 0
+    memberName: overlayCanvas
+  - isStatic: 0
+    memberName: wantsMouseMove
+  - isStatic: 0
+    memberName: wantsMouseEnterLeaveWindow
+  - isStatic: 0
+    memberName: wantsLessLayoutEvents
+  - isStatic: 0
+    memberName: autoRepaintOnSceneChange
+  - isStatic: 0
+    memberName: maximized
+  - isStatic: 0
+    memberName: hasFocus
+  - isStatic: 0
+    memberName: docked
+  - isStatic: 0
+    memberName: hasUnsavedChanges
+  - isStatic: 0
+    memberName: saveChangesMessage
+  - isStatic: 0
+    memberName: minSize
+  - isStatic: 0
+    memberName: maxSize
+  - isStatic: 0
+    memberName: title
+  - isStatic: 0
+    memberName: titleContent
+  - isStatic: 0
+    memberName: depthBufferBits
+  - isStatic: 0
+    memberName: antiAlias
+  - isStatic: 0
+    memberName: position
+  - isStatic: 0
+    memberName: name
+  - isStatic: 0
+    memberName: hideFlags
+  backendFieldDataList:
+  - isStatic: 1
+    memberName: MINDROPDOWNHEIGHT
+  - isStatic: 1
+    memberName: MAXDROPDOWNHEIGHT
+  backendEventDataList:
+  - isStatic: 0
+    memberName: OnClose
+    returnType: 
+  - isStatic: 0
+    memberName: OnBeginGUI
+    returnType: 
+  - isStatic: 0
+    memberName: OnEndGUI
+    returnType: 
